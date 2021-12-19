@@ -1,0 +1,22 @@
+.card1
+{
+ width: 400px;
+ height: 400px;
+ transition: 0.9s;
+ margin: auto;
+border-radius: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ flex-direction: column;
+ gap: 40px;
+ padding: 0px 15px 0px 15px;
+ background-color: rgb(0, 173, 216);
+ box-shadow: 5px;
+}
+.card1:hover
+{
+  transition: 0.9;
+  box-shadow: 0px 5px 25px rgba(248, 248, 248, 0.753);
+}

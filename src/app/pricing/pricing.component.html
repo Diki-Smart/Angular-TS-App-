@@ -1,0 +1,11 @@
+<div class="main">
+  <p>pricing works!</p>
+
+<div class="bloc">
+<app-pricing-card   *ngFor="let prestation of prestations"
+
+   [titre]="prestation.titre"
+   [prix]="prestation.prix"
+   [texte]="prestation.texte" >   </app-pricing-card>
+</div>
+</div>
