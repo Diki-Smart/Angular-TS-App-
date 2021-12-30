@@ -12,7 +12,19 @@ export class PricingCardComponent implements OnInit {
   @Input() prix : number  = 0;
   @Input() texte : string ="";
 
-  constructor() { }
+
+
+  // getColor(){
+
+  //   if(this.titre === 'Cloud Gaming') {
+  //     return 'blue';
+  //   } else if(this.titre !== 'Cloud Gaming') {
+  //     return 'red';
+  //   }
+  // }
+  constructor() {
+
+   }
 
   ngOnInit(): void {
   }
